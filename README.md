@@ -47,7 +47,7 @@ Le pipeline est conçu pour collecter, traiter, et analyser les données LinkedI
 
 ### Prérequis
 
-- **Python 3.10+** installé.
+- **Python 3.12+** installé.
 - **PostgreSQL** : Une instance configurée (locale ou cloud, par exemple, Neon).
 - **MongoDB** : Un cluster configuré (par exemple, MongoDB Atlas) avec une base `linkedin_kpi_db`.
 - **Apache Airflow** : Installé localement ou sur un serveur.
