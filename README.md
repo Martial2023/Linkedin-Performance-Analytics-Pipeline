@@ -5,7 +5,9 @@
 Ce projet vise à analyser les performances des publications sur LinkedIn pour identifier les facteurs clés qui maximisent l'engagement et la viralité des posts. En exploitant des données scrapées directement depuis LinkedIn, le pipeline extrait, transforme et analyse les informations (thèmes, hashtags, moments de publication, longueur des posts) pour calculer des KPI exploitables. Ces KPI permettent de répondre à des questions stratégiques : sur quels thèmes publier, quels hashtags utiliser, quelle longueur adopter, et quand publier pour optimiser l’impact.
 
 Le pipeline est automatisé avec **Apache Airflow** pour un rafraîchissement quotidien des données, intégrant des étapes de scraping, validation, stockage (PostgreSQL et MongoDB), et analyse avancée (segmentation DBSCAN). Les résultats sont visualisés via un tableau de bord interactif Next.js, disponible dans un dépôt séparé :  
-[**LinkedIn Performance Dashboard Repository**](https://github.com/your-username/linkedin-performance-dashboard)
+[**LinkedIn Performance Dashboard Repository**](https://github.com/Martial2023/Linkedin-Performance-Analytics)
+Vous pouvez également consulter directement le tableau de bord en ligne :  
+[**Tableau de Bord LinkedIn**](https://linkedin-performance-analytics.vercel.app/)
 
 ---
 
