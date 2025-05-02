@@ -58,7 +58,7 @@ Le pipeline est conçu pour collecter, traiter, et analyser les données LinkedI
 
 Clonez le dépôt contenant les scripts du pipeline :
 ```bash
-git clone https://github.com/your-username/linkedin-performance-pipeline.git
+git clone https://github.com/Martial2023/Linkedin-Performance-Analytics-Pipeline
 cd linkedin-performance-pipeline
 ```
 
@@ -87,24 +87,16 @@ apache-airflow
 
 ### Étape 3 : Configurer les Variables d’Environnement
 
-Créez un fichier `.env` dans le répertoire racine et ajoutez les variables suivantes :
+Créez un fichier `.env` dans le répertoire racine ainsi que dans le dossier 'airflow_dags' et ajoutez les variables suivantes :
 ```
-# Connexion PostgreSQL
-POSTGRES_URI=postgresql://<username>:<password>@<host>:<port>/linkedin_db
-
 # Connexion MongoDB
 MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/linkedin_kpi_db?retryWrites=true&w=majority
 
-# Chemin des données
-DATA_PATH=/path/to/linkedin-data/
-
-# Configuration Selenium
-SELENIUM_DRIVER_PATH=/path/to/chromedriver
+LINKEDIN_USER_NAME=""
+LINKEDIN_PWD=""
+# Connexion PostgreSQL
+DATABASE_URL="postgresql://..."
 ```
-
-- Remplacez `<username>`, `<password>`, `<host>`, `<port>`, et `<cluster>` par vos identifiants PostgreSQL et MongoDB.
-- `DATA_PATH` doit pointer vers le répertoire où les fichiers `.parquet` seront stockés.
-- `SELENIUM_DRIVER_PATH` doit pointer vers le driver Selenium (par exemple, ChromeDriver).
 
 ### Étape 4 : Configurer Apache Airflow
 
