@@ -1,0 +1,7 @@
+dashboard
+airflow_dags/.env
+airflow_dags/Kpis_csv
+draft/
+Kpis/
+Kpis_csv/
+logger/

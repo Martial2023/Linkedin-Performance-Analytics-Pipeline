@@ -1,0 +1,9 @@
+pandas
+sqlalchemy
+psycopg2-binary
+polars
+selenium
+beautifulsoup4
+requests
+webdriver-manager
+apache-airflow
