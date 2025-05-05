@@ -5,4 +5,4 @@ draft/
 Kpis/
 Kpis_csv/
 logger/
-.env*
+.env
